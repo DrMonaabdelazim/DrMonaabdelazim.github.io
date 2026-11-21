@@ -1,38 +1,17 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Mona's palette applied as restrained accents to AcademicPages */
+$navy: #173B56;
+$gold: #D9A66B;
+$rose: #C98278;
+$sage: #6E8060;
+$cream: #FFFDF9;
 
-/* Mona Abdelazim Brand Palette */
-
-:root {
-  --navy: #173B56;
-  --gold: #D9A66B;
-  --rose: #C98278;
-  --sage: #6E8060;
-  --cream: #FFFDF9;
-}
-
-body {
-  background-color: var(--cream);
-}
-
-a {
-  color: var(--navy);
-}
-
-a:hover {
-  color: var(--rose);
-}
-
-h1, h2, h3 {
-  color: var(--navy);
-}
-
-hr {
-  border-color: var(--gold);
-}
-
-blockquote {
-  border-left-color: var(--sage);
-}
+body { background: $cream; }
+a { color: $navy; }
+a:hover { color: $rose; }
+h1, h2, h3, h4 { color: $navy; }
+.author__name, .masthead__menu-item { color: $navy; }
+hr { border-color: $gold; }
+blockquote { border-left-color: $sage; }
