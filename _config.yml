@@ -1,0 +1,30 @@
+title: "Mona Abdelazim"
+name: "Mona Abdelazim"
+description: "Assistant Professor | NLP Engineer | Applied AI Researcher"
+url: "https://DrMonaabdelazim.github.io"
+baseurl: ""
+repository: "DrMonaabdelazim/DrMonaabdelazim.github.io"
+remote_theme: "mmistakes/academicpages"
+markdown: kramdown
+plugins:
+  - jekyll-include-cache
+author:
+  name: "Mona Abdelazim"
+  avatar: ""
+  bio: "Assistant Professor · NLP & Applied AI"
+  location: "Cairo, Egypt"
+  email: ""
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/mona-abdelazim-fcis/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/DrMonaabdelazim"
+    - label: "ACL Anthology"
+      icon: "fas fa-book"
+      url: "https://aclanthology.org/people/mona-abdelazim/"
+include:
+  - _pages
+exclude:
+  - README.md
