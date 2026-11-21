@@ -4,7 +4,7 @@ description: "Assistant Professor | NLP Engineer | Applied AI Researcher"
 url: "https://DrMonaabdelazim.github.io"
 baseurl: ""
 repository: "DrMonaabdelazim/DrMonaabdelazim.github.io"
-remote_theme: "mmistakes/academicpages"
+remote_theme: "mmistakes/minimal-mistakes"
 markdown: kramdown
 plugins:
   - jekyll-include-cache
